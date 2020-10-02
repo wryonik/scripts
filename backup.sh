@@ -3,8 +3,8 @@
 backup_dir="/home/savitar/dotfiles"
 config_folder="$HOME/.config"
 
-declare -a HOME_FILES=(".zshrc" ".Xresources")
-declare -a CONFIG_FILES=("dunst" "gtk-2.0" "gtk-3.0" "i3" "polybar" "rofi" "spicetify" "terminator" "betterlockscreenrc" "libinput-gestures.conf" "picom.conf")
+declare -a HOME_FILES=(".zshrc" ".Xresources" ".conky")
+declare -a CONFIG_FILES=("dunst" "gtk-2.0" "gtk-3.0" "i3" "i3status" "polybar" "rofi" "spicetify" "terminator" "betterlockscreenrc" "libinput-gestures.conf" "picom.conf" "compton.conf")
 
 echo "Copying files from home dir"
 
