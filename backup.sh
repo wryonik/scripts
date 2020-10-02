@@ -1,6 +1,6 @@
 #!/bin/bash
 
-backup_dir="/home/savitar/dotfiles"
+backup_dir="/home/$USER/dotfiles"
 config_folder="$HOME/.config"
 
 declare -a HOME_FILES=(".zshrc" ".Xresources" ".conky")
@@ -33,7 +33,7 @@ else
     then
         cd $backup_dir
         pwd
-	git diff
+        git diff
         git add .
         if [ $# -eq 1 ]
         then
