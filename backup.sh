@@ -4,7 +4,7 @@ backup_dir="/home/$USER/dotfiles"
 config_folder="$HOME/.config"
 
 declare -a HOME_FILES=(".zshrc" ".Xresources" ".conky")
-declare -a CONFIG_FILES=("dunst" "gtk-2.0" "gtk-3.0" "i3" "i3status" "polybar" "rofi" "spicetify" "terminator" "betterlockscreenrc" "libinput-gestures.conf" "picom.conf" "compton.conf")
+declare -a CONFIG_FILES=("dunst" "gtk-2.0" "gtk-3.0" "i3" "i3status" "polybar" "rofi" "spicetify" "terminator" "betterlockscreenrc" "libinput-gestures.conf" "picom.conf" "compton.conf" "an2linux/config")
 
 echo "Copying files from home dir"
 
